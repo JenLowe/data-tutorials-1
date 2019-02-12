@@ -49,11 +49,11 @@ Install Jupyter
 
 Install R
 
-` conda install -c r`
+` conda install -c anaconda r`
 
 Install Python 
 
-`conda install -c python=3.6`
+`conda install -c anaconda python=3.6`
 
 
 
