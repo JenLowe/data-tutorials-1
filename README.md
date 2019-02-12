@@ -48,17 +48,23 @@ This can be done on Windows, Mac, and Linux. The code for the Anaconda prompt wi
 
 `git clone https://github.com/GeoNet/data-tutorials.git`
 
+
 `cd data-tutorials`
 
 
+
+
 **Install all packages used**
+
 
 
 Install the environment file
 
 `conda env create -f environment.yml`
 
+
 Activate this environment 
+
 
 `activate GeoNet`
 
@@ -74,7 +80,6 @@ Install R
 Install Python 
 
 `conda install -c conda-forge python=3.6`
-
 
 
 
