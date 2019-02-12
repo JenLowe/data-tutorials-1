@@ -19,7 +19,7 @@ There are 3 files in this GitHub repository to help run these tutorials.
 - [**install.R**](install.R) is R code for installing all R packages used in these tutorials
 - [**runtime.txt**](runtime.txt) This file is for binder. Every day there is a snapshots of R taken. This install the snapshot of R taken on the date in this file. 
 
-1. ### In Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GeoNet/data-tutorials/master)
+### 1. In Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GeoNet/data-tutorials/master)
 
 My Binder is an experimental project still in beta phase that can be used to run notebooks. Any issues with binder can be reported at there project's GitHub  https://github.com/jupyterhub/binderhub 
 
@@ -37,7 +37,7 @@ Each cell of code can be run with `shift + enter` or you can run the entire note
 The Following link should open the Jupyter Notebook in your browser using Binder:
 https://mybinder.org/v2/gh/GeoNet/data-tutorials/master
 
-2. ### In Anaconda
+### 2. In Anaconda
 Install anaconda https://www.anaconda.com/distribution/ 
 This can be done on Windows, Mac, and Linux. The code for the Anaconda prompt will be the same on all operating systems
 
@@ -98,7 +98,7 @@ To reopen notebooks, open the Anaconda prompt and run
 
 `jupyter notebook`
 
-3. ### In your preferred GUI (Graphical User Interface)
+### 3. In your preferred GUI (Graphical User Interface)
 If you wish to run just the code and not the notebooks you can use your own GUI for Python or R
 
 **In your preferred R GUI**
