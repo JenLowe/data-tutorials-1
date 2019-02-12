@@ -51,6 +51,9 @@ This can be done on Windows, Mac, and Linux. The code for the Anaconda prompt wi
 `cd data-tutorials`
 
 
+**Install all packages used**
+
+
 Install Jupyter
 
 `conda install -c anaconda jupyter`
@@ -77,7 +80,6 @@ Install the Python kernel
 ` conda install -c conda-forge ipykernel`
 
 
-**Install all packages used**
 
 Install the environment file
 
