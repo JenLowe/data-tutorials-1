@@ -54,6 +54,14 @@ This can be done on Windows, Mac, and Linux. The code for the Anaconda prompt wi
 **Install all packages used**
 
 
+Install the environment file
+
+`conda env create -f environment.yml`
+
+Activate this environment 
+
+`activate GeoNet`
+
 Install Jupyter
 
 `conda install -c anaconda jupyter`
@@ -80,14 +88,6 @@ Install the Python kernel
 ` conda install -c conda-forge ipykernel`
 
 
-
-Install the environment file
-
-`conda env create -f environment.yml`
-
-Activate this environment 
-
-`activate GeoNet`
 
 Run the R script to install all R packages. 
 
