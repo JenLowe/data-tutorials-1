@@ -49,21 +49,21 @@ Install Jupyter
 
 Install R
 
-` conda install -c anaconda r`
+` conda install -c conda-forge r-base`
 
 Install Python 
 
-`conda install -c anaconda python=3.6`
+`conda install -c conda-forge python=3.6`
 
 
 
 Install the R kernel
 
-`conda install -c anaconda irkernel`
+`conda install -c conda-forge  r-irkernel`
 
 Install the Python kernel
 
-` conda install -c anaconda ipykernel`
+` conda install -c conda-forge ipykernel`
 
 **Clone the git**
 
