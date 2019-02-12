@@ -40,41 +40,71 @@ https://mybinder.org/v2/gh/GeoNet/data-tutorials/master
 ### In Anaconda
 Install anaconda https://www.anaconda.com/distribution/ 
 This can be done on Windows, Mac, and Linux. The code for the Anaconda prompt will be the same on all operating systems
+
 **Open the Anaconda prompt and run each line of code below.**
+
 Install Jupyter
+
 `conda install -c anaconda jupyter`
+
 Install R
+
 ` conda install -c r`
+
 Install Python 
+
 `conda install -c python=3.6`
 
+
+
 Install the R kernel
+
 `conda install -c anaconda irkernel`
+
 Install the Python kernel
+
 ` conda install -c anaconda ipykernel`
 
 **Clone the git**
+
 `git clone https://github.com/GeoNet/data-tutorials.git`
+
 `cd data-tutorials`
 
+
 **Install all packages used**
+
 Install the environment file
+
 `conda env create -f environment.yml`
+
 Activate this environment 
+
 `activate GeoNet`
+
 Run the R script to install all R packages. 
+
 `Rscript install.R`
 
+
+
 **Open Jupyter notebook**
+
 `jupyter notebook`
 
 To reopen notebooks, open the Anaconda prompt and run 
+
 `activate GeoNet`
+
 `jupyter notebook`
 
 ### In your preferred GUI (Graphical User Interface)
 If you wish to run just the code and not the notebooks you can use your own GUI for Python or R
+
 **In your preferred R GUI**
-Run the code in the file https://github.com/GeoNet/data-tutorials/blob/master/install.R to install all packages used in all notebooks. Code can then be copied across. Make sure to call packages and run any other code that may be in the beginning of the notebook but is needed for running other code in the notebook.   
+
+Run the code in the file https://github.com/GeoNet/data-tutorials/blob/master/install.R to install all packages used in all notebooks. Code can then be copied across. Make sure to call packages and run any other code that may be in the beginning of the notebook but is needed for running other code in the notebook. 
+
 **In your preferred Python GUI**
+
 You will need to install all packages under dependencies in the file https://github.com/GeoNet/data-tutorials/blob/master/environment.yml. Some of these packages can't be installed using `pip` and as such may have to be installed from there GitHub.  Code can then be copied across. Make sure to call packages and run any other code that may be in the beginning of the notebook but is needed for running other code in the notebook.  
