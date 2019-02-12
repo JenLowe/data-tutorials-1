@@ -100,6 +100,7 @@ Run the R script to install all R packages.
 `jupyter notebook`
 
 To reopen notebooks, open the Anaconda prompt and run 
+`cd data-tutorials`
 
 `activate GeoNet`
 
